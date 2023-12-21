@@ -71,4 +71,12 @@ return [
 
     'livewire_loading_delay' => 'default',
 
+    'tenancy' => [
+        'tenant' => [
+            'ownershipColumn' => 'team_id',
+            'ownershipRelationship' => 'team', // Ensure this matches the actual relationship name
+        ],
+    ],
+
+
 ];
